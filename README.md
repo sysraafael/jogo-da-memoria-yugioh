@@ -6,7 +6,7 @@ Nesse projeto fiz um jogo da memoria, assistindo um tutorial do Youtube do canal
 
 - [Aula Youtube](https://www.youtube.com/watch?v=NV88N1r2Qkg)
 
-Link: https://jogo-da-memoria-yugioh.vercel.app/pages/game.html
+Link: https://jogo-da-memoria-yugioh.vercel.app/
 
 #### 🔹 Technologies Used:
 - HTML
