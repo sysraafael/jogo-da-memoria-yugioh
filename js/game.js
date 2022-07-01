@@ -1,3 +1,11 @@
+/* Música Tema */
+let music = document.getElementById("musicTheme");
+
+// Tocar a música ao interagir com o corpo do site.
+document.body.addEventListener("mousemove", function () {
+  music.play();
+});
+
 const grid = document.querySelector('.grid');
 
 const characters = [
