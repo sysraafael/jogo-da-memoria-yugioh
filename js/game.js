@@ -1,3 +1,16 @@
+// Função para mutar a música tema.
+function mute() {
+  music.muted = true;
+  BTN_MUTE.style.display = 'block';
+  BTN_UP.style.display = 'none';
+}
+// Função para remover o mute da música.
+function up() {
+  music.muted = false;
+  BTN_MUTE.style.display = 'none';
+  BTN_UP.style.display = 'block';
+}
+
 /* Música Tema */
 let music = document.getElementById("musicTheme");
 
@@ -5,6 +18,13 @@ let music = document.getElementById("musicTheme");
 document.body.addEventListener("mousemove", function () {
   music.play();
 });
+
+const player = localStorage.getItem("player");
+console.log(player);
+
+const nickname = document.querySelector('.nickname');
+
+nickname.innerHTML = player;
 
 const grid = document.querySelector('.grid');
 
