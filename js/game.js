@@ -1,16 +1,3 @@
-// Função para mutar a música tema.
-function mute() {
-  music.muted = true;
-  BTN_MUTE.style.display = 'block';
-  BTN_UP.style.display = 'none';
-}
-// Função para remover o mute da música.
-function up() {
-  music.muted = false;
-  BTN_MUTE.style.display = 'none';
-  BTN_UP.style.display = 'block';
-}
-
 /* Música Tema */
 let music = document.getElementById("musicTheme");
 
